@@ -1,0 +1,17 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: ms-trazabilidad
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/plazoleta_trazabilidad
+
+security:
+  jwt:
+    secret: PlazoletaComidasSuperSecretKeyParaFirmarTokensJWT2026!
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
